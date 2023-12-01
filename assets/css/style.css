@@ -25,6 +25,7 @@ a {
 
 body {
   font-family: "amsiproregular", serif;
+  overflow: hidden;
 }
 body header {
   background-color: #4EAA34;
@@ -488,4 +489,21 @@ body button {
   border-radius: 43px;
   padding: 5px 30px;
   font-family: "amsiproultra", serif;
+}
+
+#loadingPage {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  background-color: #075221;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#loadingPage i {
+  color: #FE7900;
+  font-size: 70px;
 }
